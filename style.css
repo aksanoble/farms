@@ -1,0 +1,94 @@
+:root {
+  --primary: #178a63;
+  --light: #888;
+  --lighter: #bbb;
+
+  --size-xsmall: 0.675em;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666;
+}
+
+input,
+textarea,
+select {
+  font-family: "Fira Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  color: #111;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+h1 a,
+h2 a,
+h3 a {
+  color: var(--primary);
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 2px solid var(--primary);
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer {
+  font-size: var(--size-xsmall);
+  border-top: 1px solid #eee;
+  margin: 45px 0 15px 0;
+  padding-top: 15px;
+  color: #999;
+}
+footer a {
+  color: #999;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 30px 0 30px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.logo a {
+  border: 0;
+}
+.container {
+  display: flex;
+}
